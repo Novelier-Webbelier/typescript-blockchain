@@ -1,0 +1,14 @@
+{
+  "name": "type-chain",
+  "version": "1.0.0",
+  "description": "The typescript practice project to create a Block-Chain in typescript.",
+  "main": "index.js",
+  "author": "Novelier-Webbelier<novelier.webbelier@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
