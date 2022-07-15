@@ -1,10 +1,4 @@
-// class Block {
-//   constructor(private data: string) { }
-//   static hello() {
-//     return "Hi";
-//   }
-// }
+import { init, exit } from "myPackage";
 
-// Here is autocompelete when I add "DOM" to "lib" key into tsconfig.json file in this type-chain project.
-document.createElement("span");
-localStorage.getItem("Hello World");
+init({ name: "Novelier-Webbelier", fullName: "Novelier-Webbelier", age: 12 })
+exit(2);
